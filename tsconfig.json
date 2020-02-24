@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "baseUrl": ".",
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": false,
+        "jsx": "preserve",
+        "module": "esNext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": false,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "target": "esnext",
+        "types": ["jest"],
+        "useDefineForClassFields": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}
+
